@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 15px;
+  line-height: 30px;
+  color: white;
+  font-family: "Manrope", sans-serif;
+}
+
+.container {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.span {
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.title {
+  font-size: 48px;
+  line-height: 62px;
+  font-weight: 400;
+}
+
+.button {
+  padding: 15px 42px;
+  background-color: #9400FF;
+  border: none;
+  border-radius: 200px;
+  color: white;
+  font-size: 13px;
+  line-height: 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+}

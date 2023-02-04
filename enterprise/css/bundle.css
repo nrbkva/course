@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  color: black;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.header {
+  position: absolute;
+  top: 49px;
+  width: 100%;
+}
+.header__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.header__inner .menu__list {
+  list-style-type: none;
+}
+.header__inner .menu__list li {
+  display: inline-block;
+}
+.header__inner .menu__list li a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 27px;
+}
+.header__inner .menu__list li:not(:last-child) {
+  margin-right: 62px;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 137px 195px;
+}
+.main__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.main__inner_1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.main__inner_1 h2 {
+  margin-top: 52px;
+  font-size: 30px;
+  line-height: 41px;
+}
+.main__inner_1 p {
+  font-size: 21px;
+  line-height: 29px;
+  width: 597px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.main__inner_1 .button {
+  width: 240px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #30C63A;
+  color: white;
+  padding: 12px 18px;
+  font-size: 20px;
+  line-height: 27px;
+}
+.main__inner_1 .button .image {
+  display: inline-block;
+  float: right;
+}
